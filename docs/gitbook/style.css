@@ -2311,7 +2311,7 @@ table{
 .book-header{
     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
     overflow:visible;
-    height:50px;
+    height:30px;
     padding:0 8px;
     z-index:2;
     font-size:.85em;
@@ -2320,12 +2320,12 @@ table{
 }
 .book-header .btn{
     display:block;
-    height:50px;
+    height:30px;
     padding:0 15px;
     border-bottom:none;
     color:#ccc;
     text-transform:uppercase;
-    line-height:50px;
+    line-height:30px;
     -webkit-box-shadow:none!important;
     box-shadow:none!important;
     position:relative;
@@ -2345,7 +2345,7 @@ table{
     font-size:20px;
     font-weight:200;
     text-align:center;
-    line-height:50px;
+    line-height:30px;
     opacity:0;
     -webkit-transition:opacity ease .4s;
     -moz-transition:opacity ease .4s;
@@ -2639,7 +2639,7 @@ table{
     }
     .book-body .body-inner{
         position:static;
-        min-height:calc(100% - 50px)
+        min-height:calc(100% - 30px)
     }
 }
 .page-wrapper{
@@ -2648,9 +2648,9 @@ table{
 }
 .page-inner{
     position:relative;
-    max-width:800px;
+    max-width:calc(100% - 200px);
     margin:0 auto;
-    padding:20px 15px 40px 15px
+    padding:0px 0px 0px 0px
 }
 .page-inner .btn-group .btn{
     border-radius:0;
@@ -2760,7 +2760,7 @@ table{
 }
 .markdown-section h1,.markdown-section h2,.markdown-section h3,.markdown-section h4,.markdown-section h5,.markdown-section h6{
     margin-top:1.275em;
-    margin-bottom:.85em;
+    margin-bottom:.0em;
     font-weight:700
 }
 .markdown-section h1{
@@ -2891,17 +2891,18 @@ table{
 }
 .navigation{
     position:absolute;
-    top:50px;
+    top:30px;
     bottom:0;
     margin:0;
     max-width:150px;
     min-width:90px;
     display:flex;
+    background-color: #E8E8E8;
     justify-content:center;
     align-content:center;
     flex-direction:column;
     font-size:40px;
-    color:#ccc;
+    color: gray;
     text-align:center;
     -webkit-transition:all 350ms ease;
     -moz-transition:all 350ms ease;
@@ -2910,7 +2911,7 @@ table{
 }
 .navigation:hover{
     text-decoration:none;
-    color:#444
+    color: darkred
 }
 .navigation.navigation-next{
     right:0
