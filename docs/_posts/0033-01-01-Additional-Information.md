@@ -6,4 +6,4 @@ category: Book
 layout: post
 ---
 
-<p style="text-align:center;"><img src="{{site.baseurl}}/assets/Graphics_v3.2/Page33-34_Additional-Information.png" alt="Page 33-34 (Additional Information)" style="max-height: calc(100vh - 50px);"/></p>
+<p style="text-align:center;"><img src="{{site.baseurl}}/assets/Graphics_v3.2/Page33-34_Additional-Information.png" alt="Page 33-34 (Additional Information)" style="max-height: calc(100vh - 30px - 50px);"/></p>

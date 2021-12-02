@@ -2648,7 +2648,8 @@ table{
 }
 .page-inner{
     position:relative;
-    max-width:calc(100% - 180px);
+    /*max-width:calc(100% - 180px);*/
+    max-width:100%;
     margin:0 auto;
     padding:0px 0px 0px 0px
 }
@@ -2891,15 +2892,17 @@ table{
 }
 .navigation{
     position:absolute;
-    top:30px;
+    top:calc(100vh - 40px);
     bottom:0;
     margin:0;
     max-width:150px;
-    min-width:90px;
+    min-width:150px;
+    height:30px;
     display:flex;
     background-color: #E8E8E8;
     justify-content:center;
     align-content:center;
+    /*flex-direction:column;*/
     flex-direction:column;
     font-size:40px;
     color: gray;
@@ -2911,6 +2914,7 @@ table{
 }
 .navigation:hover{
     text-decoration:none;
+    background-color: LightCoral;
     color: darkred
 }
 .navigation.navigation-next{
@@ -2919,6 +2923,7 @@ table{
 .navigation.navigation-prev{
     left:0
 }
+/*
 @media (max-width:1240px){
     .navigation{
         position:static;
@@ -2932,7 +2937,8 @@ table{
         max-width:100%;
         width:100%
     }
-}
+}*/
+
 #book-search-input{
     padding:6px;
     background:0 0;
