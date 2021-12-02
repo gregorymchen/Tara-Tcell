@@ -2648,7 +2648,7 @@ table{
 }
 .page-inner{
     position:relative;
-    max-width:calc(100% - 200px);
+    max-width:calc(100% - 180px);
     margin:0 auto;
     padding:0px 0px 0px 0px
 }

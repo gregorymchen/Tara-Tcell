@@ -14,7 +14,7 @@ baseurl:          '/Tara-Tcell'
 rss:              RSS
 
 toc:
-  enabled: true
+  enabled: false
   h_min: 1
   h_max: 3
 
@@ -33,7 +33,8 @@ kramdown:
 markdown_ext:     markdown,mkdown,mkdn,mkd,md
 
 # Permalinks
-permalink:        /:categories/:year-:month-:day-:title:output_ext
+#permalink:        /:categories/:year-:month-:day-:title:output_ext
+permalink:        /:categories/:title
 
 exclude:
   - _drafts
