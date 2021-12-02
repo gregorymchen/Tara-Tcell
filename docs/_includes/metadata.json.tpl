@@ -23,10 +23,10 @@
             "search": {},
             "sharing": {
                 "all": false,
-                "facebook": true,
+                "facebook": false,
                 "google": false,
                 "instapaper": false,
-                "twitter": true,
+                "twitter": false,
                 "vk": false,
                 "weibo": false
             },
