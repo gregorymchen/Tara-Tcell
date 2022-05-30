@@ -2,7 +2,7 @@
 
 rm 00*.md
 
-for f in ../assets/Graphics_v3.2/*.png; do  
+for f in ../assets/Graphics_v3.3/*.png; do  
 	f=`basename $f`
 	image_filename=$f
 	date=`echo $f | sed 's/_.*//' | sed 's/-.*//' | sed 's/Page//' | sed 's/^/00/' | sed 's/$/-01-01/'`
